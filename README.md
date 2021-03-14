@@ -37,3 +37,32 @@ We would like you to enhance the existing project and see you complete the follo
 Thank you very much for your time to take this test. Please upload this complete solution in Github and send us the link to `bfs-sor-interview@paypal.com`.
 
 
+## Solution Details
+
+API to create employee and retrieve employee is exposed to perform the required operations
+
+-Create Employee
+
+    -API URI: localhost:8080/v1/bfs/employees/
+    -Method: POST
+
+-Request Payload: 
+
+    {
+    "id":11,
+    "first_name":"Rohit",
+     "last_name":"Wadhwa",
+    "date_of_birth":"1992-07-11",
+
+    "address":{
+    "line1":"St No 14",
+    "city":"Abohar",
+    "state":"Punjab",
+    "country":"India",
+    "zip_code":"152116"
+     }
+    }
+
+    - Retrieve Employee Details
+    -API URI: localhost:8080/v1/bfs/employees/11
+    -Method: GET
