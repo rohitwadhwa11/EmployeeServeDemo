@@ -1,0 +1,26 @@
+/*
+
+This is a sample payload to test createEmployee API
+
+API URI: localhost:8080/v1/bfs/employees/
+Method: POST
+
+Request Payload: Sample as below
+
+*/
+
+
+{
+  "id":1,
+  "first_name":"Rohit",
+  "last_name":"Wadhwa",
+  "date_of_birth":"1992-07-11",
+
+  "address":{
+    "line1":"St No 14",
+    "city":"Abohar",
+    "state":"Punjab",
+    "country":"India",
+    "zip_code":"152116"
+  }
+}
